@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 export default class Data extends Component {
     constructor(props){
         super(props);//used to call the constructor of parent class
+        console.log(this.props);
+
     }
   render() {
     return (
